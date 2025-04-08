@@ -61,7 +61,7 @@ class Game:
 
 #print(dead_state(2,2))
 test = Game(3,3,[
-        [0,0,1],
+        [0,1,1],
         [0,1,1],
         [0,0,0]
     ])
@@ -69,3 +69,4 @@ print(test)
 test.avancer()
 print("__________________")
 print(test)
+
